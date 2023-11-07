@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='math-quiz-package',
-    version='1.0.0',
-    description='A math quiz game package',
-    author='Xiaoliang Wang',
-    author_email='wcarina0208@gmail.com',
-    packages=['math_quiz_package'],
+    name="math_quiz_package",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[ 
+        # 例如：'numpy', 'matplotlib'
+    ],
 )
